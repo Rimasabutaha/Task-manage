@@ -8,7 +8,7 @@ const errorHandlerMiddleware = require('../starter/middleware/error-handler');
 
 // middleware
 
-app.use(express.static('./public'));
+app.use(express.static('./publiccc'));
 app.use(express.json());
 
 // routes
